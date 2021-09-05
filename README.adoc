@@ -1,0 +1,15 @@
+= Svelte + WindiCSS Starter
+
+== Overview
+
+* ⚒️ Svelte - Web Framework
+* ⚡Vite - to provide dev server and build command (using rollup)
+* 🌪 WindiCSS - CSS Framework based on Tailwind
+
+== Get Started
+
+[source,sh]
+----
+npm install
+npm run dev
+----
