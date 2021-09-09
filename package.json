@@ -21,6 +21,7 @@
     "windicss": "^3.1.7"
   },
   "dependencies": {
+    "highlight.js": "^11.2.0",
     "svelte-routing": "^1.6.0"
   }
 }
