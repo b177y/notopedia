@@ -1,11 +1,8 @@
-= Svelte + WindiCSS Starter
+= Notepedia
 
 == Overview
 
-* ⚒️ Svelte - Web Framework
-* ⚡Vite - to provide dev server and build command (using rollup)
-* 🌪 WindiCSS - CSS Framework based on Tailwind
-* 🌙 Simple dark mode using WindiCSS class mode
+Note taking app using AsciiDoc written in Svelte.
 
 == Get Started
 
