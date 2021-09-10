@@ -1,12 +1,17 @@
 <script>
-    import ExampleComponent from '../components/Example.svelte';
+    import Viewer from '../components/Viewer.svelte';
+    import CodeMirror from '../components/Editor.svelte';
+    const options = {
+        mode: "javascript",
+        lineNumbers: true,
+        keyMap: "vim",
+    }
+
+    let text = "# Heading";
+    let editor;
 </script>
 
-<main class="items-center justify-center w-full h-full flex flex-col">
-    <div class="w-1/2 mt-8">
-        <h1 class="text-xl font-semibold text-blue-gray-700">Hi! This is the Home page!</h1>
-        <div class="flex">
-        </div>
-    </div>
-    <ExampleComponent />
+<main class="w-full h-full flex flex-row">
+    <CodeMirror bind:editor {options} bind:value={text} />
+    <Viewer content={text} />
 </main>
