@@ -11,3 +11,11 @@ Note taking app using AsciiDoc written in Svelte.
 npm install
 npm run dev
 ----
+
+== ToDo
+
+* [ ] Work on link:https://github.com/b177y/lezer-asciidoc[lezer-asciidoc]
+to improve syntax highlighting.
+* [ ] Add git integration system
+* [ ] Add ability to open local directory
+* [ ] Work on integrating asciidoctor.js with svelte for preview

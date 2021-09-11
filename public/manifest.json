@@ -13,14 +13,5 @@
     "display": "standalone",
     "scope": "/",
     "theme_color": "#3367D6",
-    "shortcuts": [
-      {
-        "name": "AsciiDoc Note Taking",
-        "short_name": "Notopedia",
-        "description": "Note Taking App using AsciiDoc",
-        "url": "/?source=pwa",
-        "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
-      }
-    ],
     "description": "Note taking app using AsciiDoc"
 }

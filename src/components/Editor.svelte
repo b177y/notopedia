@@ -1,8 +1,7 @@
 <script lang="ts">
     import {EditorState, EditorView, basicSetup} from "@codemirror/basic-setup"
     import { oneDark } from "@codemirror/theme-one-dark";
-    //import {markdown} from "@b177y/codemirror-lang-asciidoc";
-    import {markdown} from "@codemirror/lang-markdown";
+    import {markdown} from "@b177y/codemirror-lang-asciidoc";
     import { onMount } from 'svelte';
 
     export let value;
